@@ -9,7 +9,7 @@ for n in nums:
     print(n,end=" ")
 
 '''
-// reverse 함수 사용 X
+- reverse 함수 사용 X
 nums=list(range(21))
 for _ in range(10):
     a, b=map(int,input().split())
