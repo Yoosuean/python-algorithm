@@ -2,9 +2,10 @@ nums=list(range(21))
 
 for _ in range(10):
     a,b=map(int,input().split())
-    tmp=nums[a-1:b]
+    tmp=nums[a:b+1]
     tmp.reverse()
-    nums[a-1:b]=tmp
+    nums[a:b+1]=tmp
+nums.pop(0)
 for n in nums:
     print(n,end=" ")
 
