@@ -11,7 +11,7 @@ def solution(num_list,limit):
                 max_val+=1
                 break
         if num_list==sort_list:
-            break
+            return
     while cnt<limit:
         num_list[-1],num_list[-2]=num_list[-2],num_list[-1]
         cnt+=1
